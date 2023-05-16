@@ -1,0 +1,47 @@
+body{
+    background: url("HD-Food-Backgrounds.jpg");
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.regform{
+    width:500px;
+    background-color: rgba(0,0,0,0.5);
+    margin:57px auto;
+    padding: 10px 20px 30px;
+    font-size: 25px;
+}
+.regform h3{
+    text-align: center;
+    color: #F9E2AF;
+}
+.textlabel{
+    color: #F9E2AF;
+}
+.input input{
+    width: 100%;
+    font-size: 1.1em;
+    border-radius: 8px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+button{
+    width: 200px;
+    background-color:#F9E2AF ;
+    margin-top: 20px;
+    margin-left: 170px;
+    padding: 15px 25px;
+    font-size: 25px;
+    position: relative;
+    left: -20px;
+}
+button:hover{
+    background-color: #FFE194;
+}
+label{
+    color: #F9E2AF;
+}
+.radio input{
+    accent-color:  #F9E2AF;
+}
+button:active{
+    color:#F9E2AF;
+}

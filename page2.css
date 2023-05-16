@@ -1,0 +1,124 @@
+
+body{
+    margin: auto;
+}
+.container{
+    background-image: url("bj.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+header a{
+    color: yellow;
+    text-decoration:none;
+}
+header{
+    display: flex;
+    padding: 1em;
+}
+#logo{
+    flex: 3;
+    display: 1.25em;
+}
+nav{
+    flex: 2;
+    display: flex;
+    align-items: center;
+}
+nav a{
+    flex: 1;
+}
+nav a:hover{
+    color:aquamarine;
+}
+.maintext{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    justify-content: center;
+    padding: 30px;
+}
+.sub{
+    color:rgb(182, 236, 3);
+    font-size: 3em;
+}
+.maintext div{
+    margin-top: .75em;
+}
+.maintext button{
+    width: 20vh;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #F4EEE0;
+    color: rgb(54, 5, 5);
+    padding: 7px;
+    border: 1px;
+}
+.menu{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    background-color: #F4EEE0;
+
+}    
+#menuhead,#locheading{
+    background-color: #F4EEE0; 
+    display:flex;
+    justify-content: center;
+    color: #562B08;
+}
+.menu th{
+    color:#562B08;
+    font-size: 1.5em;
+}
+table{
+    width: 100%;
+    padding: 1em;
+}
+.menu tr{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.menu td:nth-child(odd){
+    flex:1;
+    justify-self: left;
+}
+.menu td:nth-child(even){
+    justify-self: right;
+}
+.loc{
+    background-color: #F4EEE0;
+}
+footer{
+    background-color: #F4EEE0;
+    color:#562B08;
+    display: flex;
+    justify-content: center;
+}
+button:hover{
+    background-color: #F2F7A1;
+}
+i{
+    margin-right: 10px;
+}
+#locheading{
+    background-color: #F4EEE0; 
+    display:flex;
+    justify-content: left;
+    margin-left: 15px;
+
+    
+}
+address{
+    margin-left: 15px;
+}
+body{
+    background-color: #F4EEE0;
+}
+button:active{
+    color: #F2F7A1;
+}
+.call{
+    color: rgb(182, 236, 3);
+}
+    
